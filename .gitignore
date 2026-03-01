@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+
+# Dependencies
+website/node_modules
+website/.pnp
+website/.pnp.*
+website/.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Build / Next.js
+website/.next/
+website/out/
+website/build/
+
+# Env (don't commit secrets)
+.env
+.env.*
+
+# Vercel
+website/.vercel
+
+# Debug / misc
+*.pem
+*.tsbuildinfo
+website/next-env.d.ts
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/coverage
