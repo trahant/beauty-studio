@@ -58,14 +58,14 @@ export const metadata: Metadata = {
     title: "Beauty Secrets Studio | Facials, Threading & Waxing in Los Angeles, CA",
     description:
       "Beauty Secrets Studio in West LA offers signature facials, eyebrow threading, waxing, henna tattoos, and gentleman services. Walk-ins welcome. Call (310) 306-3191.",
-    images: [{ url: "/logo-dark.png", width: 512, height: 512, alt: "Beauty Secrets Studio" }],
+    images: [{ url: "/opengraph.png", width: 1024, height: 535, alt: "Beauty Secrets Studio" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Beauty Secrets Studio | Facials, Threading & Waxing in Los Angeles, CA",
     description:
       "Beauty Secrets Studio in West LA — signature facials, threading, waxing, henna, lashes. Walk-ins welcome. Call (310) 306-3191.",
-    images: ["/logo-dark.png"],
+    images: ["/opengraph.png"],
   },
   robots: {
     index: true,

@@ -1,4 +1,4 @@
-export const BOOK_URL = "https://book.example.com";
+export const BOOK_URL = "/contact";
 
 export interface PageMeta {
   path: string;
@@ -164,10 +164,10 @@ export const PAGES: PageMeta[] = [
       "2D volume lash extensions in West LA for soft, fluttery fullness. Natural and everyday wearable. Call (310) 306-3191.",
   },
   {
-    path: "/hours-and-location",
-    title: "Hours & Location | Beauty Secrets Studio | West Los Angeles",
+    path: "/contact",
+    title: "Contact | Beauty Secrets Studio | West Los Angeles",
     description:
-      "Visit Beauty Secrets Studio on Washington Blvd in West LA. Open daily — walk-ins welcome. Facials, threading, waxing, henna. Call (310) 306-3191.",
+      "Contact Beauty Secrets Studio on Washington Blvd in West LA. Call to book appointments. Open daily — walk-ins welcome. Facials, threading, waxing, henna. (310) 306-3191.",
   },
   {
     path: "/faq",

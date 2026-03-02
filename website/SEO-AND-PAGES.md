@@ -58,7 +58,7 @@
 | `/gentleman-services` | Gentleman Services category |
 | `/gentleman-services/haircut` | Men's Haircuts |
 | `/gentleman-services/mens-facial` | Men's Facials |
-| `/hours-and-location` | Hours & Location |
+| `/contact` | Contact (hours, location, call to book) |
 | `/faq` | FAQ |
 
 ---

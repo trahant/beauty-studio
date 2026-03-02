@@ -4,7 +4,7 @@ import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { PageEffects } from "@/components/PageEffects";
 
-const BOOK_URL = "https://book.example.com";
+const BOOK_URL = "/contact";
 
 export default function Home() {
   return (
@@ -43,10 +43,10 @@ export default function Home() {
             </div>
             <div className="trust-item">
               <span className="trust-num">10+</span>
-              <span className="trust-label">Yrs. Experience</span>
+              <span className="trust-label">Years Experience</span>
             </div>
             <div className="trust-item">
-              <span className="trust-num">5★</span>
+              <span className="trust-stars" aria-label="5 star Google reviews">★★★★★</span>
               <span className="trust-label">Google Reviews</span>
             </div>
           </div>
@@ -242,8 +242,8 @@ export default function Home() {
           <div className="why-grid" style={{ marginTop: "2.5rem" }}>
             <div className="why-item">
               <div className="why-icon">
-                <svg viewBox="0 0 24 24">
-                  <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z" />
+                <svg viewBox="0 0 24 24" strokeWidth={1.5}>
+                  <circle cx="12" cy="12" r="9" />
                   <path d="M12 6v6l4 2" />
                 </svg>
               </div>
@@ -255,10 +255,10 @@ export default function Home() {
             </div>
             <div className="why-item">
               <div className="why-icon">
-                <svg viewBox="0 0 24 24">
-                  <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
-                  <circle cx="9" cy="7" r="4" />
-                  <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" />
+                <svg viewBox="0 0 24 24" strokeWidth={1.5}>
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="3.5" />
+                  <path d="M22 21v-2a4 4 0 0 0-3.5-3.97M16 3.13a4 4 0 0 1 0 7.75" />
                 </svg>
               </div>
               <h4>Specialist-Only Staff</h4>
@@ -269,8 +269,8 @@ export default function Home() {
             </div>
             <div className="why-item">
               <div className="why-icon">
-                <svg viewBox="0 0 24 24">
-                  <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
+                <svg viewBox="0 0 24 24" strokeWidth={1.5}>
+                  <path d="M12 4c-2 4-3 8-3 11 0 2.5 1.5 4 3 4s3-1.5 3-4c0-3-1-7-3-11z" />
                 </svg>
               </div>
               <h4>Meditation in Facials</h4>
@@ -281,9 +281,9 @@ export default function Home() {
             </div>
             <div className="why-item">
               <div className="why-icon">
-                <svg viewBox="0 0 24 24">
-                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
-                  <circle cx="12" cy="10" r="3" />
+                <svg viewBox="0 0 24 24" strokeWidth={1.5}>
+                  <path d="M12 21.35c-4-3.2-6-6.1-6-9.35a6 6 0 1 1 12 0c0 3.25-2 6.15-6 9.35z" />
+                  <path d="M12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" />
                 </svg>
               </div>
               <h4>West LA Location</h4>

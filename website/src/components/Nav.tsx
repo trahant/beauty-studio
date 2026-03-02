@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
-const BOOK_URL = "https://book.example.com";
+const BOOK_URL = "/contact";
 
 const SERVICES = [
   {
@@ -158,11 +158,11 @@ export function Nav() {
             </div>
           </div>
           <Link
-            href="/hours-and-location"
+            href="/contact"
             className="nav-link"
             onClick={() => setServicesOpen(false)}
           >
-            Hours &amp; Location
+            Contact
           </Link>
           <Link
             href="/faq"
@@ -241,11 +241,11 @@ export function Nav() {
             </div>
           </div>
           <Link
-            href="/hours-and-location"
+            href="/contact"
             className="nav-mobile-link"
             onClick={() => setMobileOpen(false)}
           >
-            Hours &amp; Location
+            Contact
           </Link>
           <Link
             href="/faq"

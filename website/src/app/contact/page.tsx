@@ -5,12 +5,12 @@ import { Footer } from "@/components/Footer";
 import { PageEffects } from "@/components/PageEffects";
 
 export const metadata: Metadata = {
-  title: "Hours & Location | Beauty Secrets Studio | West Los Angeles",
+  title: "Contact | Beauty Secrets Studio | West Los Angeles",
   description:
-    "Visit Beauty Secrets Studio on Washington Blvd in West LA. Open daily — walk-ins welcome. Facials, threading, waxing, henna. Call (310) 306-3191.",
+    "Contact Beauty Secrets Studio on Washington Blvd in West LA. Call to book appointments. Open daily — walk-ins welcome. Facials, threading, waxing, henna. (310) 306-3191.",
 };
 
-export default function HoursAndLocationPage() {
+export default function ContactPage() {
   return (
     <>
       <Nav />
@@ -18,11 +18,11 @@ export default function HoursAndLocationPage() {
         <header className="page-hero">
           <div className="page-hero-inner">
             <p className="page-hero-eyebrow">West Los Angeles, CA &middot; Walk-Ins Welcome</p>
-            <h1 className="page-hero-title">Hours &amp; Location</h1>
+            <h1 className="page-hero-title">Contact</h1>
             <div className="divider" />
             <p className="page-hero-desc">
-              Visit us on Washington Blvd in West Los Angeles. Open daily —
-              walk-ins welcome for most services.
+              We&apos;re working on online booking. For now, please call to make appointments.
+              Visit us on Washington Blvd — walk-ins welcome for most services.
             </p>
             <div className="page-hero-actions">
               <a href="tel:3103063191" className="btn-primary">
@@ -71,6 +71,19 @@ export default function HoursAndLocationPage() {
 
         <section className="page-section">
           <div className="page-content-block">
+            <p className="section-eyebrow">Book an Appointment</p>
+            <h2 className="section-title">Call to Schedule</h2>
+            <div className="divider" />
+            <p style={{ color: "var(--muted)", marginBottom: "1.5rem" }}>
+              Online booking is coming soon. In the meantime, please call us to make an appointment.
+              Walk-ins are welcome for most services.
+            </p>
+            <a href="tel:3103063191" className="btn-primary" style={{ display: "inline-block" }}>
+              Call (310) 306-3191
+            </a>
+          </div>
+
+          <div className="page-content-block">
             <p className="section-eyebrow">Our Address</p>
             <h2 className="section-title">Visit Us</h2>
             <div className="divider" />
@@ -101,6 +114,9 @@ export default function HoursAndLocationPage() {
           </div>
 
           <div className="page-content-block">
+            <p className="section-eyebrow">Hours</p>
+            <h2 className="section-title">Open 7 Days a Week</h2>
+            <div className="divider" />
             <div className="walkin-badge">Walk-Ins Accepted Daily</div>
             <table className="hours-table">
               <tbody>

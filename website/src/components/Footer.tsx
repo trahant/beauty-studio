@@ -46,6 +46,9 @@ export function Footer() {
         </div>
         <div className="footer-col">
           <h5>Visit</h5>
+          <p>
+            <Link href="/contact">Contact &amp; Hours</Link>
+          </p>
           <p className="footer-address">
             12833 1/2 W Washington Blvd
             <br />
