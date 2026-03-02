@@ -437,6 +437,8 @@ body {
   inset: 0;
 }
 .hero-img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: center;
 }
@@ -693,16 +695,6 @@ section { padding: 6rem 8vw; }
   color: var(--clay);
 }
 .stars { color: var(--gold); font-size: 0.9rem; margin-bottom: 1rem; }
-.why-decorative-img {
-  position: relative;
-  width: 100%;
-  height: 180px;
-  margin-top: 1.5rem;
-  border-radius: 2px;
-  overflow: hidden;
-}
-.why-img { object-fit: cover; object-position: center; }
-
 /* ── GENTLEMEN ── */
 #gentlemen {
   background: var(--espresso);

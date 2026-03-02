@@ -54,7 +54,7 @@ export default function Home() {
         <div className="hero-right">
           <div className="hero-img-wrap">
             <Image
-              src="/hero.jpg"
+              src="/orchids.png"
               alt="Beauty Secrets Studio - facials, threading, waxing in West Los Angeles"
               fill
               priority
@@ -306,15 +306,6 @@ export default function Home() {
             <p className="review-author">
               McKenzie Callahan &mdash; Google Review
             </p>
-          </div>
-          <div className="why-decorative-img">
-            <Image
-              src="/orchids.jpg"
-              alt=""
-              fill
-              sizes="(max-width: 900px) 100vw, 50vw"
-              className="why-img"
-            />
           </div>
           <div
             style={{
