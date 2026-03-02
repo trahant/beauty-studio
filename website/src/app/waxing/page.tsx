@@ -17,6 +17,7 @@ export default function WaxingPage() {
       title="Waxing Services"
       description="Premium chocolate waxing and full body waxing in West LA. Sensitive-skin friendly wax for smooth, lasting results. Walk-ins welcome."
       breadcrumb={[{ label: "Waxing", href: "/waxing" }]}
+      heroImage="/waxing.jpg"
     >
       <section className="page-section">
         <div className="page-content-block">

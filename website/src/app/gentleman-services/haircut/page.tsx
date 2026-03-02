@@ -20,6 +20,7 @@ export default function MensHaircutPage() {
         { label: "Gentleman Services", href: "/gentleman-services" },
         { label: "Haircut", href: "/gentleman-services/haircut" },
       ]}
+      heroImage="/gentleman-services.png"
     >
       <section className="page-section">
         <div className="page-content-block">

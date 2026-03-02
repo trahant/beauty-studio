@@ -19,6 +19,7 @@ export default function AntiAgingSolutionsPage() {
         { label: "Facials", href: "/facials" },
         { label: "Anti-Aging Solutions", href: "/facials/anti-aging-solutions" },
       ]}
+      heroImage="/anti-aging-solutions.png"
     >
       <section className="page-section">
         <div className="page-content-block">

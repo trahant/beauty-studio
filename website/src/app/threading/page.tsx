@@ -17,6 +17,7 @@ export default function ThreadingPage() {
       title="Eyebrow & Facial Threading"
       description="Professional eyebrow threading and facial threading in West LA. Precise shaping with the traditional thread technique — no chemicals, no irritation. Walk-ins welcome."
       breadcrumb={[{ label: "Threading", href: "/threading" }]}
+      heroImage="/threading.png"
     >
       <section className="page-section">
         <div className="page-content-block">

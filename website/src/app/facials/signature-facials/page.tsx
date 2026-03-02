@@ -20,6 +20,7 @@ export default function SignatureFacialsPage() {
         { label: "Facials", href: "/facials" },
         { label: "Signature Facials", href: "/facials/signature-facials" },
       ]}
+      heroImage="/facials.jpg"
     >
       <section className="page-section">
         <div className="page-content-block">

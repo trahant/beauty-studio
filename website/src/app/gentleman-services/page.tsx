@@ -17,6 +17,7 @@ export default function GentlemanServicesPage() {
       title="Gentleman Services"
       description="Men's haircuts, facials, eyebrow threading, and grooming treatments in West LA. Walk-ins welcome. No-nonsense service."
       breadcrumb={[{ label: "Gentleman Services", href: "/gentleman-services" }]}
+      heroImage="/gentleman-services.png"
     >
       <section className="page-section">
         <div className="page-content-block">

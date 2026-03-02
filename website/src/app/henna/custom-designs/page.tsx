@@ -19,6 +19,7 @@ export default function CustomDesignsPage() {
         { label: "Henna", href: "/henna" },
         { label: "Custom Designs", href: "/henna/custom-designs" },
       ]}
+      heroImage="/hennadesign.jpg"
     >
       <section className="page-section">
         <div className="page-content-block">

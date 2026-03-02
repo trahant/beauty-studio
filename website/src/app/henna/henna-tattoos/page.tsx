@@ -20,6 +20,7 @@ export default function HennaTattoosPage() {
         { label: "Henna", href: "/henna" },
         { label: "Henna Tattoos", href: "/henna/henna-tattoos" },
       ]}
+      heroImage="/hennadesign.jpg"
     >
       <section className="page-section">
         <div className="page-content-block">

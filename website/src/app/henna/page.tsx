@@ -17,6 +17,7 @@ export default function HennaPage() {
       title="Henna Tattoos & Bridal Mehndi"
       description="Custom henna tattoo designs, bridal mehndi packages, and event henna art in West LA. 100% natural henna. Hand-applied by experienced artists."
       breadcrumb={[{ label: "Henna", href: "/henna" }]}
+      heroImage="/hennadesign.jpg"
     >
       <section className="page-section">
         <div className="page-content-block">

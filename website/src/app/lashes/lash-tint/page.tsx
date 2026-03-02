@@ -20,6 +20,7 @@ export default function LashTintPage() {
         { label: "Lashes", href: "/lashes" },
         { label: "Lash Tint", href: "/lashes/lash-tint" },
       ]}
+      heroImage="/lashes.jpg"
     >
       <section className="page-section">
         <div className="page-content-block">

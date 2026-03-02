@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { PageEffects } from "@/components/PageEffects";
@@ -121,15 +122,36 @@ export default function FAQPage() {
     <>
       <Nav />
       <div className="page-wrapper">
-        <header className="page-hero">
-          <div className="page-hero-inner">
-            <p className="page-hero-eyebrow">Common Questions</p>
-            <h1 className="page-hero-title">FAQ</h1>
-            <div className="divider" />
-            <p className="page-hero-desc">
-              Answers to common questions about our services, visits, and what to
-              expect. Walk-ins welcome for most services.
-            </p>
+        <header className="page-hero page-hero-split">
+          <div className="page-hero-left">
+            <div className="page-hero-inner">
+              <p className="page-hero-eyebrow">Common Questions</p>
+              <h1 className="page-hero-title">FAQ</h1>
+              <div className="divider" />
+              <p className="page-hero-desc">
+                Answers to common questions about our services, visits, and what to
+                expect. Walk-ins welcome for most services.
+              </p>
+              <div className="page-hero-actions">
+                <a href="/contact" className="btn-primary">
+                  Book Now
+                </a>
+                <a href="tel:3103063191" className="btn-ghost">
+                  Call (310) 306-3191
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="page-hero-right">
+            <div className="page-hero-img-wrap">
+              <Image
+                src="/white_flowers.png"
+                alt=""
+                fill
+                sizes="(max-width: 900px) 0vw, 50vw"
+                className="page-hero-img"
+              />
+            </div>
           </div>
         </header>
 

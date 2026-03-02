@@ -20,6 +20,7 @@ export default function SkincareTreatmentsPage() {
         { label: "Facials", href: "/facials" },
         { label: "Skincare Treatments", href: "/facials/skincare-treatments" },
       ]}
+      heroImage="/facials.jpg"
     >
       <section className="page-section">
         <div className="page-content-block">

@@ -307,6 +307,15 @@ export default function Home() {
               McKenzie Callahan &mdash; Google Review
             </p>
           </div>
+          <div className="why-decorative-img">
+            <Image
+              src="/orchids.jpg"
+              alt=""
+              fill
+              sizes="(max-width: 900px) 100vw, 50vw"
+              className="why-img"
+            />
+          </div>
           <div
             style={{
               marginTop: "1.5rem",
@@ -437,6 +446,15 @@ export default function Home() {
           </div>
         </div>
         <div>
+          <div className="booking-decorative-img">
+            <Image
+              src="/white_flowers.png"
+              alt=""
+              fill
+              sizes="(max-width: 900px) 100vw, 50vw"
+              className="booking-img"
+            />
+          </div>
           <div
             style={{
               background: "var(--cream)",

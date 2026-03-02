@@ -20,6 +20,7 @@ export default function LashExtensionRemovalPage() {
         { label: "Lashes", href: "/lashes" },
         { label: "Lash Extension Removal", href: "/lashes/lash-extension-removal" },
       ]}
+      heroImage="/lashes.jpg"
     >
       <section className="page-section">
         <div className="page-content-block">

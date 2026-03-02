@@ -17,6 +17,7 @@ export default function FacialsPage() {
       title="Facials & Skincare"
       description="Signature facials, hydrating treatments, and anti-aging solutions customized to your skin type. Every facial includes guided meditation for full relaxation. Walk-ins welcome."
       breadcrumb={[{ label: "Facials", href: "/facials" }]}
+      heroImage="/facials.jpg"
     >
       <section className="page-section">
         <div className="page-content-block">

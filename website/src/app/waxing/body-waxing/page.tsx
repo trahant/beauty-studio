@@ -20,6 +20,7 @@ export default function BodyWaxingPage() {
         { label: "Waxing", href: "/waxing" },
         { label: "Body Waxing", href: "/waxing/body-waxing" },
       ]}
+      heroImage="/waxing.jpg"
     >
       <section className="page-section">
         <div className="page-content-block">

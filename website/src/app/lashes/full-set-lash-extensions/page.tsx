@@ -20,6 +20,7 @@ export default function FullSetLashExtensionsPage() {
         { label: "Lashes", href: "/lashes" },
         { label: "Full Set Lash Extensions", href: "/lashes/full-set-lash-extensions" },
       ]}
+      heroImage="/lashes.jpg"
     >
       <section className="page-section">
         <div className="page-content-block">

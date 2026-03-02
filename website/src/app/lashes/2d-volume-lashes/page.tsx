@@ -20,6 +20,7 @@ export default function TwoDVolumeLashesPage() {
         { label: "Lashes", href: "/lashes" },
         { label: "2D Volume Lashes", href: "/lashes/2d-volume-lashes" },
       ]}
+      heroImage="/lashes.jpg"
     >
       <section className="page-section">
         <div className="page-content-block">

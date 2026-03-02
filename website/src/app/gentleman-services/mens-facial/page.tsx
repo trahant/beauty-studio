@@ -20,6 +20,7 @@ export default function MensFacialPage() {
         { label: "Gentleman Services", href: "/gentleman-services" },
         { label: "Men's Facial", href: "/gentleman-services/mens-facial" },
       ]}
+      heroImage="/gentleman-services.png"
     >
       <section className="page-section">
         <div className="page-content-block">

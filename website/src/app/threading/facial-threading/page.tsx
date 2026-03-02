@@ -20,6 +20,7 @@ export default function FacialThreadingPage() {
         { label: "Threading", href: "/threading" },
         { label: "Facial Threading", href: "/threading/facial-threading" },
       ]}
+      heroImage="/facial-threading.png"
     >
       <section className="page-section">
         <div className="page-content-block">

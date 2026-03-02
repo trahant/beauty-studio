@@ -20,6 +20,7 @@ export default function EyebrowThreadingPage() {
         { label: "Threading", href: "/threading" },
         { label: "Eyebrow Threading", href: "/threading/eyebrow-threading" },
       ]}
+      heroImage="/eyebrow-threading.png"
     >
       <section className="page-section">
         <div className="page-content-block">

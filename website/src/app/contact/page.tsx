@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
@@ -15,27 +16,40 @@ export default function ContactPage() {
     <>
       <Nav />
       <div className="page-wrapper">
-        <header className="page-hero">
-          <div className="page-hero-inner">
-            <p className="page-hero-eyebrow">West Los Angeles, CA &middot; Walk-Ins Welcome</p>
-            <h1 className="page-hero-title">Contact</h1>
-            <div className="divider" />
-            <p className="page-hero-desc">
-              We&apos;re working on online booking. For now, please call to make appointments.
-              Visit us on Washington Blvd — walk-ins welcome for most services.
-            </p>
-            <div className="page-hero-actions">
-              <a href="tel:3103063191" className="btn-primary">
-                Call (310) 306-3191
-              </a>
-              <a
-                href="https://maps.google.com/?q=12833+W+Washington+Blvd+Los+Angeles+CA"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-ghost"
-              >
-                Get Directions
-              </a>
+        <header className="page-hero page-hero-split">
+          <div className="page-hero-left">
+            <div className="page-hero-inner">
+              <p className="page-hero-eyebrow">West Los Angeles, CA &middot; Walk-Ins Welcome</p>
+              <h1 className="page-hero-title">Contact</h1>
+              <div className="divider" />
+              <p className="page-hero-desc">
+                We&apos;re working on online booking. For now, please call to make appointments.
+                Visit us on Washington Blvd — walk-ins welcome for most services.
+              </p>
+              <div className="page-hero-actions">
+                <a href="tel:3103063191" className="btn-primary">
+                  Call (310) 306-3191
+                </a>
+                <a
+                  href="https://maps.google.com/?q=12833+W+Washington+Blvd+Los+Angeles+CA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-ghost"
+                >
+                  Get Directions
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="page-hero-right">
+            <div className="page-hero-img-wrap">
+              <Image
+                src="/orchids.jpg"
+                alt=""
+                fill
+                sizes="(max-width: 900px) 0vw, 50vw"
+                className="page-hero-img"
+              />
             </div>
           </div>
         </header>

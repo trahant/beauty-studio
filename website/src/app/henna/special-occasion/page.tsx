@@ -19,6 +19,7 @@ export default function SpecialOccasionPage() {
         { label: "Henna", href: "/henna" },
         { label: "Special Occasion", href: "/henna/special-occasion" },
       ]}
+      heroImage="/hennadesign.jpg"
     >
       <section className="page-section">
         <div className="page-content-block">

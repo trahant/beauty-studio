@@ -19,6 +19,7 @@ export default function HydratingTreatmentsPage() {
         { label: "Facials", href: "/facials" },
         { label: "Hydrating Treatments", href: "/facials/hydrating-treatments" },
       ]}
+      heroImage="/hydrating-treatments.png"
     >
       <section className="page-section">
         <div className="page-content-block">

@@ -19,6 +19,7 @@ export default function BridalPackagesPage() {
         { label: "Henna", href: "/henna" },
         { label: "Bridal Packages", href: "/henna/bridal-packages" },
       ]}
+      heroImage="/hennadesign.jpg"
     >
       <section className="page-section">
         <div className="page-content-block">

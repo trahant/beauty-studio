@@ -20,6 +20,7 @@ export default function ChocolateWaxingPage() {
         { label: "Waxing", href: "/waxing" },
         { label: "Chocolate Waxing", href: "/waxing/chocolate-waxing" },
       ]}
+      heroImage="/chocolate-waxing.png"
     >
       <section className="page-section">
         <div className="page-content-block">

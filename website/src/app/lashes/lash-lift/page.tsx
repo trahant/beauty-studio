@@ -21,6 +21,7 @@ export default function LashLiftPage() {
         { label: "Lashes", href: "/lashes" },
         { label: "Lash Lift", href: "/lashes/lash-lift" },
       ]}
+      heroImage="/lashes.jpg"
     >
       <section className="page-section">
         <div className="page-content-block">

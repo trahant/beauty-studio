@@ -17,6 +17,7 @@ export default function LashesPage() {
       title="Lash Tint, Lifts & Extensions"
       description="Lash tinting, lifts, classic extensions, 2D volume, and gentle lash extension removal in West LA."
       breadcrumb={[{ label: "Lashes", href: "/lashes" }]}
+      heroImage="/lashes.jpg"
     >
       <section className="page-section">
         <div className="page-content-block">
