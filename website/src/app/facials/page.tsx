@@ -15,7 +15,7 @@ export default function FacialsPage() {
   return (
     <PageLayout
       title="Facials & Skincare"
-      description="Signature facials, hydrating treatments, and anti-aging solutions customized to your skin type. Every facial includes guided meditation for full relaxation. Walk-ins welcome."
+      description="Signature facials, hydrating treatments, and anti-aging solutions customized to your skin type. Calm, unhurried sessions designed to help you relax. Walk-ins welcome."
       breadcrumb={[{ label: "Facials", href: "/facials" }]}
       heroImage="/facials.jpg"
     >
@@ -37,9 +37,8 @@ export default function FacialsPage() {
           </p>
           <p>
             All facials include deep cleansing, exfoliation, extractions when
-            needed, a custom mask, and facial massage. We also integrate guided
-            meditation to help you fully relax and get the most from your
-            treatment.
+            needed, a custom mask, and facial massage. We keep the session calm
+            and comfortable so you can fully enjoy your treatment.
           </p>
 
           <div className="page-stats" aria-hidden="true">
@@ -84,14 +83,14 @@ export default function FacialsPage() {
                   <path d="M12 3v9l4 4" />
                 </svg>
               </div>
-              <h4>Guided Meditation</h4>
-              <p>Relax fully with meditation woven into every facial.</p>
+              <h4>Unhurried Relaxation</h4>
+              <p>Calm, comfortable sessions focused on results and your ease.</p>
             </div>
           </div>
 
           <div className="page-quote-block">
             <blockquote>
-              &ldquo;The most relaxing facial I&apos;ve had in LA. My skin glowed for days and the meditation actually made me fall asleep.&rdquo;
+              &ldquo;The most relaxing facial I&apos;ve had in LA. My skin glowed for days and the session helped me unwind.&rdquo;
             </blockquote>
             <cite>— Client review, West LA</cite>
           </div>
@@ -106,7 +105,7 @@ export default function FacialsPage() {
             <li>Extractions when needed for congested pores</li>
             <li>Custom serums and masks targeting your concerns</li>
             <li>Facial massage to promote circulation and relaxation</li>
-            <li>Guided meditation throughout the treatment</li>
+            <li>Relaxation-focused experience</li>
           </ul>
         </div>
 
@@ -123,7 +122,7 @@ export default function FacialsPage() {
             </Link>
             <Link href="/facials/signature-facials" className="sub-page-link fade-up">
               <h3>Signature Facials</h3>
-              <p>Our 60-minute signature experience with facial massage & guided meditation.</p>
+              <p>Our 60-minute signature experience with facial massage and calm, unhurried pacing.</p>
             </Link>
             <Link href="/facials/hydrating-treatments" className="sub-page-link fade-up">
               <h3>Hydrating Treatments</h3>

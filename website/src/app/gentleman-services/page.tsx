@@ -6,16 +6,16 @@ import { BOOK_URL } from "@/lib/sitemap";
 import { getCategoryPricing } from "@/lib/pricing";
 
 export const metadata: Metadata = {
-  title: "Gentleman Services: Haircuts & Men's Facials in Los Angeles | Beauty Secrets Studio",
+  title: "Gentleman Services: Facials, Threading, Back Waxing & Treatments | Beauty Secrets Studio",
   description:
-    "Men's haircuts, facials, eyebrow threading, and grooming treatments in West LA. Walk-ins welcome. Call (310) 306-3191.",
+    "Pampering facials, eyebrow threading, back waxing, and scalp/conditioning treatments for men in West LA. Walk-ins welcome. Call (310) 306-3191.",
 };
 
 export default function GentlemanServicesPage() {
   return (
     <PageLayout
       title="Gentleman Services"
-      description="Men's haircuts, facials, eyebrow threading, and grooming treatments in West LA. Walk-ins welcome. No-nonsense service."
+      description="Pampering facials, eyebrow threading, back waxing, and scalp/conditioning treatments for men in West LA. Walk-ins welcome. No-nonsense service."
       breadcrumb={[{ label: "Gentleman Services", href: "/gentleman-services" }]}
       heroImage="/gentleman-services.png"
     >
@@ -30,9 +30,10 @@ export default function GentlemanServicesPage() {
             working with male clients across all skin types.
           </p>
           <p>
-            From haircuts and facials to eyebrow threading and back waxing, we
-            provide efficient, professional service without the fluff. Walk-ins
-            are welcome and we keep our availability open every day.
+            We offer pampering facials, eyebrow threading, and back waxing, plus
+            keratin/conditioning and scalp treatments (including hot oil head
+            massage). We provide efficient, professional service without the fluff.
+            Walk-ins are welcome and we keep our availability open every day.
           </p>
 
           <div className="page-stats" aria-hidden="true">
@@ -67,8 +68,8 @@ export default function GentlemanServicesPage() {
                   <path d="M12 6v6l4 2" />
                 </svg>
               </div>
-              <h4>Haircuts</h4>
-              <p>Tapers, fades, textured crops & classic cuts. Walk-ins welcome.</p>
+              <h4>Scalp Treatments</h4>
+              <p>Keratin treatment, conditioning, and scalp treatments. Hot oil head massage included.</p>
             </div>
             <div className="page-feature-item">
               <div className="page-feature-icon">
@@ -78,8 +79,8 @@ export default function GentlemanServicesPage() {
                   <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" />
                 </svg>
               </div>
-              <h4>Brow & Wax</h4>
-              <p>Eyebrow threading and back waxing. Clean, efficient, no-nonsense.</p>
+              <h4>Eyebrow Threading &amp; Back Waxing</h4>
+              <p>Eyebrow threading and full back/shoulder waxing. Clean, efficient, no-nonsense.</p>
             </div>
           </div>
 
@@ -99,8 +100,8 @@ export default function GentlemanServicesPage() {
           <div className="divider" />
           <div className="sub-pages-grid">
             <Link href="/gentleman-services/haircut" className="sub-page-link fade-up">
-              <h3>Men&apos;s Haircuts</h3>
-              <p>Tapers, fades, textured crops & classic cuts. Walk-ins welcome.</p>
+              <h3>Scalp Treatments</h3>
+              <p>Keratin treatment, conditioning, scalp care, and hot oil head massage.</p>
             </Link>
             <Link href="/gentleman-services/mens-facial" className="sub-page-link fade-up">
               <h3>Men&apos;s Facials</h3>
@@ -112,13 +113,16 @@ export default function GentlemanServicesPage() {
             </Link>
             <Link href="/waxing/body-waxing" className="sub-page-link fade-up">
               <h3>Back Waxing</h3>
-              <p>Full back and shoulder waxing. Clean, efficient service.</p>
+              <p>
+                Full back and shoulder waxing. Men&apos;s waxing is full body (no private
+                areas); back waxing is the most requested.
+              </p>
             </Link>
           </div>
         </div>
 
         <div className="page-cta-strip">
-          <p>Walk in or book ahead. Haircuts, facials, threading, waxing — we&apos;re here for you.</p>
+          <p>Walk in or book ahead. Facials, threading, back waxing, and scalp treatments — we&apos;re here for you.</p>
           <div className="btns">
             <a href={BOOK_URL} className="btn-primary">Book Now</a>
             <a href="tel:3103063191" className="btn-ghost">Call (310) 306-3191</a>

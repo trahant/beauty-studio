@@ -5,52 +5,45 @@ import { PricingSection } from "@/components/PricingSection";
 import { getServicePricing } from "@/lib/pricing";
 
 export const metadata: Metadata = {
-  title: "Men's Haircuts in Los Angeles | Beauty Secrets Studio",
+  title: "Scalp Treatments in Los Angeles | Keratin & Hot Oil | Beauty Secrets Studio",
   description:
-    "Professional men's haircuts in West LA — tapers, fades, textured crops & classic cuts. Walk-ins welcome. Call (310) 306-3191.",
+    "Keratin treatment, conditioning, scalp treatments, and hot oil head massage for men in West LA. Walk-ins welcome. Call (310) 306-3191.",
 };
 
 export default function MensHaircutPage() {
   return (
     <PageLayout
-      title="Men's Haircuts"
-      description="Professional men's haircuts in West LA — tapers, fades, textured crops, and classic cuts. Walk-ins welcome."
+      title="Scalp Treatments"
+      description="Keratin treatment, conditioning, scalp treatments, and hot oil head massage for men in West LA. Walk-ins welcome."
       heroPrice={getServicePricing("gentleman-services", "haircut")[0]?.price}
       breadcrumb={[
         { label: "Gentleman Services", href: "/gentleman-services" },
-        { label: "Haircut", href: "/gentleman-services/haircut" },
+        { label: "Scalp Treatments", href: "/gentleman-services/haircut" },
       ]}
       heroImage="/gentleman-services.png"
     >
       <section className="page-section">
         <div className="page-content-block">
-          <p className="section-eyebrow">Barber Services</p>
-          <h2 className="section-title">Professional Cuts for Men</h2>
+          <p className="section-eyebrow">Scalp &amp; Conditioning</p>
+          <h2 className="section-title">Keratin, Conditioning &amp; Hot Oil</h2>
           <div className="divider" />
           <p className="section-sub">
-            Our barbers offer professional men&apos;s haircuts including tapers,
-            fades, textured crops, and classic cuts. We take the time to
-            understand what you want and deliver a clean, precise result.
+            Our scalp and conditioning treatments help refresh hair and
+            promote a healthy, clean feel. Choose keratin treatment,
+            conditioning, scalp treatment, and finish with a hot oil head
+            massage.
           </p>
           <p>
-            No appointment needed for most haircuts. Walk in during our business
-            hours and we&apos;ll get you in as soon as possible. For peak times,
-            we recommend calling ahead.
+            No appointment needed for most services. Walk in during our
+            business hours, and for peak times we recommend calling ahead.
           </p>
         </div>
 
         <div className="page-content-block">
           <PricingSection
-            items={[]}
-            priceInHero
+            items={getServicePricing("gentleman-services", "haircut")}
             eyebrow="Services"
-            benefitsTitle="What We Offer"
-            benefits={[
-              "Tapers and fades",
-              "Textured crops",
-              "Classic cuts",
-              "Beard trims",
-            ]}
+            title="Scalp Treatment Prices"
           />
           <Link href="/gentleman-services" className="btn-primary" style={{ marginTop: "1.5rem", display: "inline-block" }}>
             View All Gentleman Services

@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: "How long do henna tattoos last?",
-    a: "Henna tattoos typically last 1 to 3 weeks depending on placement and aftercare. To extend the life of your design, avoid soaking the area in water, apply coconut oil lightly, and keep the skin moisturized. Hands and feet tend to produce the darkest, longest-lasting results.",
+    a: "Henna tattoos typically last 1 to 2 weeks depending on placement and aftercare. To extend the life of your design, avoid soaking the area in water, apply coconut oil lightly, and keep the skin moisturized. Hands and feet tend to produce the darkest, longest-lasting results.",
   },
   {
     q: "How often should I get a facial?",
@@ -93,7 +93,7 @@ const faqs = [
   },
   {
     q: "Do you do eyebrow waxing or only threading?",
-    a: "We offer both threading and waxing for brows. Threading is chemical-free and precise; waxing is quick. We also offer brow wax as part of our waxing menu. You can choose based on your preference and skin sensitivity.",
+    a: "We offer eyebrow threading for brows. Threading is chemical-free and precise. We do not offer brow waxing — for waxing, we focus on other body areas.",
   },
   {
     q: "Can I get a facial and waxing on the same day?",

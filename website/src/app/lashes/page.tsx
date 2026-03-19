@@ -8,14 +8,14 @@ import { getCategoryPricing } from "@/lib/pricing";
 export const metadata: Metadata = {
   title: "Lash Tint, Lifts & Extensions in Los Angeles | Beauty Secrets Studio",
   description:
-    "Lash tinting, lifts, classic extensions, 2D volume, and gentle lash extension removal in West LA. Call (310) 306-3191.",
+    "Lash tinting, lifts, cluster extensions, 2D volume, party strip lashes, and gentle lash extension removal in West LA. Call (310) 306-3191.",
 };
 
 export default function LashesPage() {
   return (
     <PageLayout
       title="Lash Tint, Lifts & Extensions"
-      description="Lash tinting, lifts, classic extensions, 2D volume, and gentle lash extension removal in West LA."
+      description="Lash tinting, lifts, cluster extensions, 2D volume, party strip lashes, and gentle lash extension removal in West LA."
       breadcrumb={[{ label: "Lashes", href: "/lashes" }]}
       heroImage="/lashes.jpg"
     >
@@ -26,8 +26,8 @@ export default function LashesPage() {
           <div className="divider" />
           <p className="section-sub">
             We offer a full range of lash services — from tinting and lifts to
-            classic and volume extensions. Whether you want to enhance your
-            natural lashes or add fullness with extensions, we have you covered.
+            cluster and volume extensions. Whether you want to enhance your
+            natural lashes or add fullness for everyday wear or parties, we have you covered.
           </p>
           <p>
             Our lash specialists are trained in the latest techniques and use
@@ -106,8 +106,8 @@ export default function LashesPage() {
               <p>Curl and lift your natural lashes. No extensions needed. Low-maintenance.</p>
             </Link>
             <Link href="/lashes/full-set-lash-extensions" className="sub-page-link fade-up">
-              <h3>Full Set Extensions</h3>
-              <p>Custom length and curl. Wake up with a polished look.</p>
+              <h3>Cluster Extensions</h3>
+              <p>Fluttery clusters for length and fullness. Great for events too.</p>
             </Link>
             <Link href="/lashes/2d-volume-lashes" className="sub-page-link fade-up">
               <h3>2D Volume Lashes</h3>
@@ -121,7 +121,7 @@ export default function LashesPage() {
         </div>
 
         <div className="page-cta-strip">
-          <p>Book your lash service — tint, lift, or full extensions. We&apos;ll help you choose the right option.</p>
+          <p>Book your lash service — tint, lift, cluster extensions, or 2D volume. We&apos;ll help you choose the right option.</p>
           <div className="btns">
             <a href={BOOK_URL} className="btn-primary">Book Now</a>
             <a href="tel:3103063191" className="btn-ghost">Call (310) 306-3191</a>

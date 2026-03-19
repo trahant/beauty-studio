@@ -29,7 +29,7 @@ export const PAGES: PageMeta[] = [
     path: "/facials/signature-facials",
     title: "Signature Facials in Los Angeles | Beauty Secrets Studio",
     description:
-      "Our 60-minute Signature Facial combines deep cleansing, custom serums, facial massage & guided meditation. West LA's most relaxing facial. Call (310) 306-3191.",
+      "Our 60-minute Signature Facial combines deep cleansing, custom serums, and facial massage for deep relaxation. West LA's most relaxing facial. Call (310) 306-3191.",
   },
   {
     path: "/facials/hydrating-treatments",
@@ -45,9 +45,9 @@ export const PAGES: PageMeta[] = [
   },
   {
     path: "/threading",
-    title: "Eyebrow & Facial Threading in Los Angeles | Beauty Secrets Studio",
+    title: "Eyebrow & Full Face Threading in Los Angeles | Beauty Secrets Studio",
     description:
-      "Professional eyebrow threading and facial threading in West LA. Precise shaping, no chemicals, walk-ins welcome. Call (310) 306-3191.",
+      "Professional eyebrow threading and full face threading in West LA. Precise shaping, no chemicals, walk-ins welcome. Call (310) 306-3191.",
   },
   {
     path: "/threading/eyebrow-threading",
@@ -57,9 +57,9 @@ export const PAGES: PageMeta[] = [
   },
   {
     path: "/threading/facial-threading",
-    title: "Facial Threading in Los Angeles | Upper Lip, Chin & Cheeks | Beauty Secrets Studio",
+    title: "Full Face Threading in Los Angeles | Upper Lip, Chin, Cheeks & Neck | Beauty Secrets Studio",
     description:
-      "Professional facial threading for upper lip, chin, cheeks & sideburns in West LA. Gentle, chemical-free. Call (310) 306-3191.",
+      "Professional full face threading for upper lip, chin, cheeks, sideburns, and neck in West LA. Gentle, chemical-free. Call (310) 306-3191.",
   },
   {
     path: "/waxing",
@@ -111,15 +111,21 @@ export const PAGES: PageMeta[] = [
   },
   {
     path: "/gentleman-services",
-    title: "Gentleman Services: Haircuts & Men's Facials in Los Angeles | Beauty Secrets Studio",
+    title: "Gentleman Services: Facials, Threading, Back Waxing & Treatments | Beauty Secrets Studio",
     description:
-      "Men's haircuts, facials, eyebrow threading, and grooming treatments in West LA. Walk-ins welcome. Call (310) 306-3191.",
+      "Pampering facials, eyebrow threading, back waxing, and scalp/conditioning treatments for men in West LA. Walk-ins welcome. Call (310) 306-3191.",
   },
   {
     path: "/gentleman-services/haircut",
-    title: "Men's Haircuts in Los Angeles | Beauty Secrets Studio",
+    title: "Scalp Treatments in Los Angeles | Keratin & Hot Oil | Beauty Secrets Studio",
     description:
-      "Professional men's haircuts in West LA — tapers, fades, textured crops & classic cuts. Walk-ins welcome. Call (310) 306-3191.",
+      "Keratin treatment, conditioning, scalp treatments, and hot oil head massage for men in West LA. Walk-ins welcome. Call (310) 306-3191.",
+  },
+  {
+    path: "/hair-and-makeup",
+    title: "Hair & Make Up in Los Angeles | Parties & Events | Beauty Secrets Studio",
+    description:
+      "Makeup, hair styling, and blowouts for parties and special events in West LA. Walk-ins welcome when available. Call (310) 306-3191.",
   },
   {
     path: "/gentleman-services/mens-facial",
@@ -131,7 +137,7 @@ export const PAGES: PageMeta[] = [
     path: "/lashes",
     title: "Lash Tint, Lifts & Extensions in Los Angeles | Beauty Secrets Studio",
     description:
-      "Lash tinting, lifts, classic extensions, 2D volume, and gentle lash extension removal in West LA. Call (310) 306-3191.",
+      "Lash tinting, lifts, cluster extensions, 2D volume, party strip lashes, and gentle lash extension removal in West LA. Call (310) 306-3191.",
   },
   {
     path: "/lashes/lash-tint",
@@ -147,9 +153,9 @@ export const PAGES: PageMeta[] = [
   },
   {
     path: "/lashes/full-set-lash-extensions",
-    title: "Full Set Lash Extensions in Los Angeles | Beauty Secrets Studio",
+    title: "Cluster Lash Extensions in Los Angeles | Beauty Secrets Studio",
     description:
-      "Full set lash extensions in West LA. Custom length and curl. Wake up with a polished look. Call (310) 306-3191.",
+      "Cluster lash extensions in West LA. Custom length and curl. Fluttery lashes with a polished look. Call (310) 306-3191.",
   },
   {
     path: "/lashes/lash-lift",

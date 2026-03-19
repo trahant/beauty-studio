@@ -22,7 +22,7 @@ const SERVICES = [
     href: "/threading",
     items: [
       { label: "Eyebrow Threading", href: "/threading/eyebrow-threading" },
-      { label: "Facial Threading", href: "/threading/facial-threading" },
+      { label: "Full Face Threading", href: "/threading/facial-threading" },
     ],
   },
   {
@@ -49,16 +49,21 @@ const SERVICES = [
     items: [
       { label: "Lash Tint", href: "/lashes/lash-tint" },
       { label: "Lash Lift", href: "/lashes/lash-lift" },
-      { label: "Full Set Extensions", href: "/lashes/full-set-lash-extensions" },
+      { label: "Cluster Extensions", href: "/lashes/full-set-lash-extensions" },
       { label: "2D Volume Lashes", href: "/lashes/2d-volume-lashes" },
       { label: "Extension Removal", href: "/lashes/lash-extension-removal" },
     ],
   },
   {
+    label: "Hair & Make Up",
+    href: "/hair-and-makeup",
+    items: [{ label: "Makeup, Hair & Blowouts", href: "/hair-and-makeup" }],
+  },
+  {
     label: "Gentleman Services",
     href: "/gentleman-services",
     items: [
-      { label: "Men's Haircuts", href: "/gentleman-services/haircut" },
+      { label: "Scalp Treatments", href: "/gentleman-services/haircut" },
       { label: "Men's Facials", href: "/gentleman-services/mens-facial" },
     ],
   },
@@ -88,12 +93,6 @@ export function Nav() {
       document.addEventListener("keydown", handleEscape);
       return () => document.removeEventListener("keydown", handleEscape);
     }
-  }, [mobileOpen]);
-
-  // Expand Services by default when opening mobile menu so links are visible
-  useEffect(() => {
-    if (mobileOpen) setMobileExpanded("services");
-    else setMobileExpanded(null);
   }, [mobileOpen]);
 
   return (
@@ -182,7 +181,13 @@ export function Nav() {
           className="nav-mobile-toggle"
           aria-label="Toggle menu"
           aria-expanded={mobileOpen}
-          onClick={() => setMobileOpen(!mobileOpen)}
+          onClick={() => {
+            setMobileOpen((prev) => {
+              const next = !prev;
+              setMobileExpanded(next ? "services" : null);
+              return next;
+            });
+          }}
         >
           <span className="nav-hamburger" />
           <span className="nav-hamburger" />
@@ -196,7 +201,10 @@ export function Nav() {
           <button
             type="button"
             className="nav-mobile-close"
-            onClick={() => setMobileOpen(false)}
+            onClick={() => {
+              setMobileOpen(false);
+              setMobileExpanded(null);
+            }}
             aria-label="Close menu"
           >
             <span aria-hidden>×</span>

@@ -6,16 +6,16 @@ import { BOOK_URL } from "@/lib/sitemap";
 import { getCategoryPricing } from "@/lib/pricing";
 
 export const metadata: Metadata = {
-  title: "Eyebrow & Facial Threading in Los Angeles | Beauty Secrets Studio",
+  title: "Eyebrow & Full Face Threading in Los Angeles | Beauty Secrets Studio",
   description:
-    "Professional eyebrow threading and facial threading in West LA. Precise shaping, no chemicals, walk-ins welcome. Call (310) 306-3191.",
+    "Professional eyebrow threading and full face threading in West LA. No chemicals, precise results, walk-ins welcome. Call (310) 306-3191.",
 };
 
 export default function ThreadingPage() {
   return (
     <PageLayout
-      title="Eyebrow & Facial Threading"
-      description="Professional eyebrow threading and facial threading in West LA. Precise shaping with the traditional thread technique — no chemicals, no irritation. Walk-ins welcome."
+      title="Eyebrow & Full Face Threading"
+      description="Professional eyebrow threading and full face threading in West LA. Precise shaping with the traditional thread technique — no chemicals, no irritation. Walk-ins welcome."
       breadcrumb={[{ label: "Threading", href: "/threading" }]}
       heroImage="/threading.png"
     >
@@ -111,8 +111,10 @@ export default function ThreadingPage() {
               <p>Sharp, defined brows with the traditional thread technique. Walk-ins welcome.</p>
             </Link>
             <Link href="/threading/facial-threading" className="sub-page-link fade-up">
-              <h3>Facial Threading</h3>
-              <p>Upper lip, chin, cheeks & sideburns. Gentle, chemical-free hair removal.</p>
+              <h3>Full Face Threading</h3>
+              <p>
+                Upper lip, chin, cheeks, and sideburns plus neck. We can also thread beyond the face on request.
+              </p>
             </Link>
           </div>
         </div>

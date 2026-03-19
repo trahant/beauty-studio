@@ -30,7 +30,7 @@ export default function TwoDVolumeLashesPage() {
           <p className="section-sub">
             2D volume lashes use multiple fine extensions per natural lash to
             create soft, fluttery fullness. The result is more dramatic than
-            classic extensions but still natural and wearable for everyday.
+            cluster extensions but still natural and wearable for everyday.
           </p>
           <p>
             Perfect for those who want fuller lashes without the heavy look of
@@ -43,10 +43,10 @@ export default function TwoDVolumeLashesPage() {
           <PricingSection
             items={[]}
             priceInHero
-            eyebrow="2D vs Classic"
+            eyebrow="2D vs Cluster"
             benefitsTitle="The Difference"
             benefits={[
-              "Classic: one extension per natural lash — natural look",
+              "Cluster: small grouped sets attached to your natural lashes — fluttery look",
               "2D Volume: two fine extensions per natural lash — fuller, softer",
             ]}
           />

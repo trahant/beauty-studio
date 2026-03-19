@@ -8,14 +8,14 @@ import { getServicePricing } from "@/lib/pricing";
 export const metadata: Metadata = {
   title: "Signature Facials in Los Angeles | Beauty Secrets Studio",
   description:
-    "Our 60-minute Signature Facial combines deep cleansing, custom serums, facial massage & guided meditation. West LA's most relaxing facial. Call (310) 306-3191.",
+    "Our 60-minute Signature Facial combines deep cleansing, custom serums, and facial massage for deep relaxation. West LA's most relaxing facial. Call (310) 306-3191.",
 };
 
 export default function SignatureFacialsPage() {
   return (
     <PageLayout
       title="Signature Facials"
-      description="Our 60-minute Signature Facial combines deep cleansing, custom serums, facial massage, and guided meditation. West LA's most relaxing facial experience."
+      description="Our 60-minute Signature Facial combines deep cleansing, custom serums, and facial massage for deep relaxation. West LA's most relaxing facial experience."
       breadcrumb={[
         { label: "Facials", href: "/facials" },
         { label: "Signature Facials", href: "/facials/signature-facials" },
@@ -45,7 +45,7 @@ export default function SignatureFacialsPage() {
           <p>
             The Signature Facial works for all skin types. It&apos;s perfect for
             first-time clients, regular maintenance every 4–6 weeks, or anyone
-            who wants a comprehensive facial with a calming, meditative element.
+            who wants a comprehensive facial with a calming, relaxing experience.
           </p>
 
           <PricingSection
@@ -58,13 +58,16 @@ export default function SignatureFacialsPage() {
               "Custom serum application targeting your concerns",
               "Facial massage with pressure points for relaxation",
               "Professional mask (hydrating, clarifying, or anti-aging)",
-              "Guided meditation throughout the treatment",
             ]}
           />
 
           <div className="page-highlight-box">
             <h3>60 minutes &middot; All skin types</h3>
-            <p>Includes double cleanse, exfoliation, custom serum, facial massage, professional mask, and guided meditation. Your esthetician tailors every step to your skin.</p>
+            <p>
+              Includes double cleanse, exfoliation, custom serum, facial massage,
+              and a professional mask. Your esthetician tailors every step to
+              your skin.
+            </p>
           </div>
 
           <div className="page-quote-block">

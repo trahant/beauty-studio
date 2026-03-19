@@ -16,7 +16,7 @@ export function getCategoryPricing(
     case "threading":
       return [
         { name: "Eyebrow", price: "$15" },
-        { name: "Eyebrow T", price: "$20" },
+        { name: "Eyebrow Tint", price: "$20" },
         { name: "Eyebrow & Upper Lips", price: "$22" },
         { name: "Eyebrow & Lip & Chin", price: "$35" },
         { name: "Eyebrow / Lip / Sides", price: "$35" },
@@ -25,8 +25,8 @@ export function getCategoryPricing(
         { name: "Men's Eyebrows with Sides", price: "$20" },
         { name: "Upper Lips", price: "$9" },
         { name: "Lip and Chin", price: "$25" },
-        { name: "Chin", price: "$20" },
-        { name: "Sides", price: "$20" },
+        { name: "Chin", price: "$15" },
+        { name: "Sides", price: "$15" },
         { name: "Full Cheeks", price: "$20" },
         { name: "Forehead", price: "$10" },
         { name: "Half Neck", price: "$12" },
@@ -101,7 +101,7 @@ export function getCategoryPricing(
       ];
     case "henna":
       return [
-        { name: "Henna Cone", price: "$15" },
+        { name: "Henna Cone", price: "$20" },
         { name: "Henna Tattoo", price: "$20" },
         { name: "Hot Oil Treatment with Head & Shoulder Massage", price: "$30" },
         { name: "Henna Hair", price: "$65" },
@@ -110,7 +110,7 @@ export function getCategoryPricing(
       return [
         { name: "Lash Removal", price: "$30" },
         { name: "Lash Tint", price: "$40" },
-        { name: "Full Set", price: "$110" },
+        { name: "Cluster Extensions", price: "$110" },
         { name: "Lash Lift", price: "$110" },
         { name: "2D Lashes", price: "$150" },
       ];
@@ -129,7 +129,7 @@ export function getServicePricing(
       if (serviceSlug === "eyebrow-threading") {
         return [
           { name: "Eyebrow", price: "$15" },
-          { name: "Eyebrow T", price: "$20" },
+          { name: "Eyebrow Tint", price: "$20" },
           { name: "Men's Eyebrow with Cheeks", price: "$20" },
           { name: "Men's Eyebrows with Sides", price: "$20" },
           { name: "Eyebrow Lamination", price: "$90" },
@@ -139,8 +139,8 @@ export function getServicePricing(
         return [
           { name: "Upper Lips", price: "$9" },
           { name: "Lip and Chin", price: "$25" },
-          { name: "Chin", price: "$20" },
-          { name: "Sides", price: "$20" },
+          { name: "Chin", price: "$15" },
+          { name: "Sides", price: "$15" },
           { name: "Full Cheeks", price: "$20" },
           { name: "Forehead", price: "$10" },
           { name: "Half Neck", price: "$12" },
@@ -237,7 +237,7 @@ export function getServicePricing(
     case "henna":
       if (serviceSlug === "henna-tattoos" || serviceSlug === "custom-designs" || serviceSlug === "special-occasion") {
         return [
-          { name: "Henna Cone", price: "$15" },
+          { name: "Henna Cone", price: "$20" },
           { name: "Henna Tattoo", price: "$20" },
           { name: "Hot Oil Treatment with Head & Shoulder Massage", price: "$30" },
         ];
@@ -254,14 +254,19 @@ export function getServicePricing(
     case "lashes":
       if (serviceSlug === "lash-tint") return [{ name: "Lash Tint", price: "$40" }];
       if (serviceSlug === "lash-extension-removal") return [{ name: "Lash Removal", price: "$30" }];
-      if (serviceSlug === "full-set-lash-extensions") return [{ name: "Full Set", price: "$110" }];
+      if (serviceSlug === "full-set-lash-extensions") return [{ name: "Cluster Extensions", price: "$110" }];
       if (serviceSlug === "lash-lift") return [{ name: "Lash Lift", price: "$110" }];
       if (serviceSlug === "2d-volume-lashes") return [{ name: "2D Lashes", price: "$150" }];
       return getCategoryPricing("lashes");
 
     case "gentleman-services":
       if (serviceSlug === "haircut") {
-        return [{ name: "Men's Haircut", price: "Call for pricing" }];
+        return [
+          { name: "Keratin Treatment", price: "Call for pricing" },
+          { name: "Conditioning Treatment", price: "Call for pricing" },
+          { name: "Scalp Treatment", price: "Call for pricing" },
+          { name: "Hot Oil Head Massage", price: "Call for pricing" },
+        ];
       }
       if (serviceSlug === "mens-facial") {
         return [

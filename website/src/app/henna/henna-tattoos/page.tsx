@@ -35,7 +35,7 @@ export default function HennaTattoosPage() {
           <p>
             The design darkens over 24–48 hours as the henna oxidizes. Hands
             and feet produce the darkest, longest-lasting results. With proper
-            aftercare, your design can last 1 to 3 weeks.
+            aftercare, your design can last 1 to 2 weeks.
           </p>
         </div>
 
@@ -53,7 +53,7 @@ export default function HennaTattoosPage() {
           />
 
           <div className="page-highlight-box">
-            <h3>1–3 weeks lasting &middot; Hands & feet darkest</h3>
+            <h3>1–2 weeks lasting &middot; Hands & feet darkest</h3>
             <p>Design darkens over 24–48 hours. We use only natural paste — no black henna, no harmful additives.</p>
           </div>
 

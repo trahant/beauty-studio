@@ -32,7 +32,7 @@ export default function HennaPage() {
           <p>
             We never use black henna or harmful additives. Only safe, traditional
             ingredients that produce rich, long-lasting color. Henna tattoos
-            typically last 1 to 3 weeks depending on placement and aftercare.
+            typically last 1 to 2 weeks depending on placement and aftercare.
           </p>
           <p>
             Our artists are experienced in both traditional and modern styles.
@@ -46,7 +46,7 @@ export default function HennaPage() {
               <span className="page-stat-label">Natural Henna</span>
             </div>
             <div className="page-stat-item">
-              <span className="page-stat-num">1–3</span>
+              <span className="page-stat-num">1–2</span>
               <span className="page-stat-label">Weeks Lasting</span>
             </div>
             <div className="page-stat-item">

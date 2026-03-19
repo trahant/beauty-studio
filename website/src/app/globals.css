@@ -10,6 +10,7 @@
   --blush: #d4a58a;
   --sage: #8a9e8c;
   --teal: #02c3ca;
+  --orchid: #7b2d7a;
   --gold: #c4a35a;
   --text: #3d2d20;
   --muted: #7a6558;
@@ -341,7 +342,7 @@ body {
   font-size: 0.75rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--teal);
+  color: var(--orchid);
   margin-bottom: 1.4rem;
   font-weight: 500;
 }
@@ -1001,7 +1002,7 @@ footer {
   font-size: 0.75rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--teal);
+  color: var(--orchid);
   margin-bottom: 1rem;
   font-weight: 500;
 }

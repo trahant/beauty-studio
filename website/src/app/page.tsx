@@ -42,7 +42,7 @@ export default function Home() {
               <span className="trust-label">Service Categories</span>
             </div>
             <div className="trust-item">
-              <span className="trust-num">10+</span>
+              <span className="trust-num">18+</span>
               <span className="trust-label">Years Experience</span>
             </div>
             <div className="trust-item">
@@ -134,8 +134,7 @@ export default function Home() {
             <h3 className="service-name">Facials &amp; Skincare</h3>
             <p className="service-desc">
               Signature facials, hydrating treatments, and anti-aging solutions
-              customized to your skin type. Includes a guided meditation for full
-              relaxation.
+              customized to your skin type.
             </p>
             <div className="service-tags">
               <span className="tag">Signature Facials</span>
@@ -155,8 +154,8 @@ export default function Home() {
             </p>
             <div className="service-tags">
               <span className="tag">Eyebrow Threading</span>
-              <span className="tag">Facial Threading</span>
-              <span className="tag">Upper Lip</span>
+              <span className="tag">Full Face Threading</span>
+              <span className="tag">Neck &amp; Full Body</span>
             </div>
             <span className="service-link">Learn More &rarr;</span>
           </Link>
@@ -165,14 +164,14 @@ export default function Home() {
             <div className="service-num">03</div>
             <h3 className="service-name">Waxing</h3>
             <p className="service-desc">
-              Full body waxing services from brows to legs. We use high-quality
-              wax suited for sensitive skin to minimize discomfort and deliver
-              smooth, lasting results.
+              Full body waxing services for legs, bikini, Brazilian, and more. We
+              use high-quality wax suited for sensitive skin to minimize discomfort
+              and deliver smooth, lasting results.
             </p>
             <div className="service-tags">
               <span className="tag">Body Waxing</span>
               <span className="tag">Brazilian</span>
-              <span className="tag">Brow Wax</span>
+              <span className="tag">Chocolate Wax</span>
             </div>
             <span className="service-link">Learn More &rarr;</span>
           </Link>
@@ -183,7 +182,7 @@ export default function Home() {
             <p className="service-desc">
               Custom henna designs for weddings, festivals, and everyday
               expression. Bridal henna packages available for full bridal
-              parties. Lasts 1 to 3 weeks.
+              parties. Lasts 1 to 2 weeks.
             </p>
             <div className="service-tags">
               <span className="tag">Bridal Henna</span>
@@ -197,28 +196,47 @@ export default function Home() {
             <div className="service-num">05</div>
             <h3 className="service-name">Lashes</h3>
             <p className="service-desc">
-              Lash tinting, lifts, classic extensions, and 2D volume. Enhance
-              your natural lashes or add fullness. Gentle removal available.
+              Lash tinting, lifts, cluster extensions, and 2D volume. Enhance
+              your natural lashes or add party-fullness with strip lashes. Gentle
+              removal available.
             </p>
             <div className="service-tags">
               <span className="tag">Lash Tint</span>
               <span className="tag">Lash Lift</span>
-              <span className="tag">Extensions</span>
+              <span className="tag">Cluster Extensions</span>
+            </div>
+            <span className="service-link">Learn More &rarr;</span>
+          </Link>
+
+          <Link href="/hair-and-makeup" className="service-card fade-up">
+            <div className="service-num">06</div>
+            <h3 className="service-name">Hair &amp; Make Up</h3>
+            <p className="service-desc">
+              Makeup, hair, and blowouts for parties and special events. We&apos;ll help
+              you look camera-ready — call to book your appointment.
+            </p>
+            <div className="service-tags">
+              <span className="tag">Makeup</span>
+              <span className="tag">Hair</span>
+              <span className="tag">Blowouts</span>
             </div>
             <span className="service-link">Learn More &rarr;</span>
           </Link>
 
           <Link href="/gentleman-services" className="service-card fade-up">
-            <div className="service-num">06</div>
+            <div className="service-num">07</div>
             <h3 className="service-name">Gentleman Services</h3>
             <p className="service-desc">
-              Facials, threading, and grooming treatments designed for men.
-              Clean skin and sharp brows are not optional. Walk-ins welcome.
+              Pampering facials, eyebrow threading, and back waxing for men.
+              Men&apos;s waxing is full body (no private areas) and back waxing is the most
+              common item we do. We also offer keratin treatment, conditioning,
+              scalp treatments, and hot oil head massage. Walk-ins welcome.
             </p>
             <div className="service-tags">
-              <span className="tag">Men&apos;s Facials</span>
-              <span className="tag">Brow Grooming</span>
-              <span className="tag">Threading</span>
+              <span className="tag">Pampering Facials</span>
+              <span className="tag">Eyebrow Threading</span>
+              <span className="tag">Back Waxing</span>
+              <span className="tag">Scalp Treatments</span>
             </div>
             <span className="service-link">Learn More &rarr;</span>
           </Link>
@@ -270,18 +288,6 @@ export default function Home() {
             <div className="why-item">
               <div className="why-icon">
                 <svg viewBox="0 0 24 24" strokeWidth={1.5}>
-                  <path d="M12 4c-2 4-3 8-3 11 0 2.5 1.5 4 3 4s3-1.5 3-4c0-3-1-7-3-11z" />
-                </svg>
-              </div>
-              <h4>Meditation in Facials</h4>
-              <p>
-                Guided meditation is integrated into facials for full
-                relaxation.
-              </p>
-            </div>
-            <div className="why-item">
-              <div className="why-icon">
-                <svg viewBox="0 0 24 24" strokeWidth={1.5}>
                   <path d="M12 21.35c-4-3.2-6-6.1-6-9.35a6 6 0 1 1 12 0c0 3.25-2 6.15-6 9.35z" />
                   <path d="M12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" />
                 </svg>
@@ -300,8 +306,8 @@ export default function Home() {
             <p className="review-text">
               &quot;Love the service here. They always do a great job with my
               brows and listen to how I&apos;d like them shaped. Even better for
-              facials. They walk you through the entire process and include
-              meditation. Highly recommend.&quot;
+              facials. They walk you through the entire process. Highly
+              recommend.&quot;
             </p>
             <p className="review-author">
               McKenzie Callahan &mdash; Google Review
@@ -356,7 +362,7 @@ export default function Home() {
               </p>
             </div>
             <div className="gentleman-item">
-              <h4>Eyebrow Threading &amp; Grooming</h4>
+              <h4>Eyebrow Threading</h4>
               <p>
                 Precise shaping for a clean, natural look. One of the
                 most-requested services for men at our studio.
@@ -553,7 +559,7 @@ export default function Home() {
                 How long do henna tattoos last? <span className="icon">+</span>
               </button>
               <div className="faq-a">
-                Henna tattoos typically last 1 to 3 weeks depending on
+                Henna tattoos typically last 1 to 2 weeks depending on
                 placement and aftercare. To extend the life of your design,
                 avoid soaking the area in water, apply coconut oil lightly, and
                 keep the skin moisturized. Hands and feet tend to produce the
