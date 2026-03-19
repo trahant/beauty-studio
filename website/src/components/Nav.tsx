@@ -100,7 +100,7 @@ export function Nav() {
       <nav className="nav">
         <Link href="/" className="nav-logo">
           <Image
-            src="/logo-dark.png"
+            src="/Orchidlogoicon.png"
             alt="Beauty Secrets Studio"
             width={32}
             height={32}

@@ -8,7 +8,7 @@ export function Footer() {
         <div>
           <p className="footer-brand-name">
             <Image
-              src="/logo-light.png"
+              src="/Orchidlogoicon.png"
               alt=""
               width={28}
               height={28}
