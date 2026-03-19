@@ -10,8 +10,8 @@ export function Footer() {
             <Image
               src="/Orchidlogoicon.png"
               alt=""
-              width={28}
-              height={28}
+              width={34}
+              height={34}
               className="footer-logo-img"
             />
             Beauty Secrets Studio

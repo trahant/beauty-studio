@@ -102,8 +102,8 @@ export function Nav() {
           <Image
             src="/Orchidlogoicon.png"
             alt="Beauty Secrets Studio"
-            width={32}
-            height={32}
+            width={40}
+            height={40}
             className="nav-logo-img"
           />
           Beauty Secrets Studio
